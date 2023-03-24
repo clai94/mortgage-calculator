@@ -11,7 +11,7 @@ const port = process.env.PORT ?? 3000;
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Produce8 coding exercise to determine monthly payments.');
+    res.send('Produce8 coding exercise to determine per schedule payments.');
 });
 
 app.use('/mortgage-calculator', mortgageCalculatorRouter);
