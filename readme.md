@@ -12,13 +12,15 @@ By default the dev server will run on port 3000.
 
 The payment per payment schedule can be calculated by sending a `POST` request to `localhost:3000/mortgage-calculator` with the following request body:
 
-```{
+```
+{
     amortizationPeriod: number;
     annualInterestRate: number;
     downPayment: number;
     paymentSchedule: PaymentSchedule;
     propertyPrice: number;
-}```
+}
+```
 
 ## Tests
 
